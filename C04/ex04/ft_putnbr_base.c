@@ -74,10 +74,8 @@ void ft_putnbr_base(int nbr, char *base)
 
 int main()
 {
-
-	int nbr = 99 ;
-	char base[] = "ba";
-	ft_putnbr_base(nbr , base);
+	int nb = 16;
+	char base[] = "01234567";
+	ft_putnbr_base(nb , base);
 	return (0);
-
 }
